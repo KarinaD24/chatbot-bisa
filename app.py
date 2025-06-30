@@ -16,7 +16,7 @@ r = sr.Recognizer()
 # API OpenRouter
 url = "https://openrouter.ai/api/v1/chat/completions"
 headers = {
-    "Authorization": "Bearer {os.getenv('DEEPSEEK_API_KEY')}",
+    "Authorization": f"Bearer {os.getenv('DEEPSEEK_API_KEY')}",
     "Content-Type": "application/json",
 }
 
