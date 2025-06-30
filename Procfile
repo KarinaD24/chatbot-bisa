@@ -1,0 +1,1 @@
+web: streamlit run main-deepseek.py --server.port=$PORT

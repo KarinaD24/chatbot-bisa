@@ -1,0 +1,9 @@
+streamlit
+requests
+gtts
+speechrecognition
+python-pptx
+playsound==1.2.2
+sentence-transformers
+scikit-learn
+numpy
